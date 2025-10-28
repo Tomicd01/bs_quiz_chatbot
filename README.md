@@ -1,6 +1,6 @@
 # BS Quiz Chatbot
 
-> A full-stack chatbot application inspired by ChatGPT, answering user queries using information from a PostgreSQL database via the MCP server. The backend is built in .NET 9, the frontend in React, and the MCP server acts as a secure bridge to the database.
+A full-stack chatbot application inspired by ChatGPT, answering user queries using information from a PostgreSQL database via the MCP server. The backend is built in .NET 9, the frontend in React, and the MCP server acts as a secure bridge to the database.
 
 ---
 
