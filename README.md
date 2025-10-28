@@ -74,7 +74,7 @@ graph TD
    ```json
    {
      "ConnectionStrings": {
-       "MessagesDatabase": "Host=localhost;Database=brain_squeeze_db;Username=username_here;Password=password_here"
+       "MessagesDatabase": "Host=localhost;Port=5432;Database=brain_squeeze_db;Username=<your_password>;Password=<your_password>"
      },
      "ApiKey": {
        "KimiKey": "your_kimi_key",
