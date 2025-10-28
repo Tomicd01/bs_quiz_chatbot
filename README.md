@@ -174,11 +174,6 @@ graph TD
 
 ---
 
-## License
-MIT
-
----
-
 ## References
 - [MCP Server Documentation](https://github.com/executeautomation/mcp-database-server)
 - [React](https://react.dev/)
