@@ -40,9 +40,9 @@ graph TD
 1. Install PostgreSQL and create a database (e.g., `brain_squeeze_db`).
 2. Create a user with privileges:
    ```sql
-   CREATE USER username_here WITH PASSWORD 'password_here';
-   CREATE DATABASE brain_squeeze_db OWNER username_here;
-   GRANT ALL PRIVILEGES ON DATABASE brain_squeeze_db TO username_here;
+   CREATE USER <username_here> WITH PASSWORD <your_password>;
+   CREATE DATABASE brain_squeeze_db OWNER <username_here>;
+   GRANT ALL PRIVILEGES ON DATABASE brain_squeeze_db TO <username_here>;
    ```
 3. (Optional) Use provided migrations to create tables:
    - Run from backend folder:
