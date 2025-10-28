@@ -1,0 +1,9 @@
+.containerbox{
+   border-radius: 10px;
+    box-shadow: 5px 5px 10px #282c34;
+    background-color: #202123;
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+    color: white;
+}

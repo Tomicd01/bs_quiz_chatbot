@@ -1,0 +1,217 @@
+.App{
+  display: flex;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sidemenu{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #202123;
+  padding: 10px;
+  position: relative;
+}
+
+.logout-section{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: center;
+}
+.chatbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.side-menu-button {
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  text-align: left;
+  transition: ease 0.25s all;
+}
+
+.side-menu-button span {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.side-menu-button:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.side-menu-chats-history{
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+.side-menu-item{
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  transition: ease 0.25s all;
+}
+.side-menu-item:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.side-menu-item.active {
+  background-color: #50545c; 
+  font-weight: bold; 
+  border-left: 4px solid #00bfff; 
+}
+
+
+.chat-input-holder{
+  margin:12px;
+  bottom: 12px;       /* distance from bottom */
+  width: 90%;
+}
+.chat-input-textarea{
+  background-color: #40414f;
+  width: 100%;
+  border-radius: 5px;
+  border-color: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.chat-log{
+  flex: 1;
+  overflow-y: scroll;
+  height: 80vh; /* Adjust this value to control the height of the chat log */
+  width: 100%;
+}
+
+.chat-kimi{
+  text-align: left;
+  background-color: #444654;
+}
+
+.chat-message{
+
+}
+
+.chat-message-center{
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative ;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e5ab2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+}
+
+.avatar.chatkimi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.message{
+  overflow-wrap: break-word;   /* break only if a word is too long */
+  word-break: break-word;      /* extra fallback for older browsers */
+  white-space: pre-wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.message p {
+  margin: 0 0 0 0;
+}
+
+.message ul {
+  margin: 0;         /* smaller vertical spacing */
+  padding-left: 1.25em;     /* indent bullets slightly */
+  list-style-position: inside; /* bullets aligned with text */
+}
+
+.message li {
+  margin-bottom: 0;    /* reduce gap between items */
+}
+
+.message ol {
+  margin: 0;
+  padding-left: 1.25em;
+  list-style-position: inside;
+}
+
+.message h3{
+  margin: 0;
+}
+
+.login{
+  background-color: #282c34;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.formbuttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+.formbuttons button{
+  background-color: #50545c;
+  color: white;
+  width: 140px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#email,
+#password,
+#confirmPassword{
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #40414f;
+  color: white;
+  padding: 5px 10px;
+}
+
+#email,#password,#confirmPassword:focus{
+  outline: 1px solid #00bfff;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+}

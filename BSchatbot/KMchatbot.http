@@ -1,0 +1,6 @@
+@KMchatbot_HostAddress = https://localhost:7127
+
+GET {{KMchatbot_HostAddress}}/api/Chat/conversations
+Accept: application/json
+
+###
